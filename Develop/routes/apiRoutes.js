@@ -29,7 +29,7 @@ router.post("/notes", (req, res)=>{
         // push our newNote object into the parsedNotes from DB file
         parsedNotes.push(newNote)
 
-// write the newly updated db back to the file DONT FORGET TO STRINGIFY
+// write the newly updated db back to the file 
         fs.writeFile(path.join(__dirname, "../db/db.json"), JSON.stringify(parsedNotes), function(err){
             if(err) throw err;
             console.log("SAVED NOTE TO DB")
@@ -74,16 +74,6 @@ router.delete("/notes/:id", (req, res)=>{
 
 
 })
-
-
-
-
-
-
-
-
-
-
 
 
 module.exports = router;
