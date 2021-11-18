@@ -12,63 +12,43 @@ https://github.com/lindamart/Note_Taker
 
 Heroku Link
 
-https://stormy-bayou-93300.herokuapp.com/notes
+https://stormy-bayou-93300.herokuapp.com/
 
-## Installation
+## Application Preview
 
-To install necessary dependencies, run the following command:
+![](noteTakerApp.jpg)
 
-```
-npm i
-```
-## Use
-To invoke the application use the following command:
+![](noteTakerAddNote.jpg)
 
-```bash
-node index.js
-```
-
-To run tests, run the following command:
-
-```
-npm test
-```
+![](noteTakerDeletedNote.jpg)
 
 ## Criteria
 
 ```md
 
-WHEN I am prompted for my team members and their information
+WHEN I open the Note Taker
 
-THEN an HTML file is generated that displays a nicely formatted team roster based on user input
+THEN I am presented with a landing page with a link to a notes page
 
-WHEN I click on an email address in the HTML
+WHEN I click on the link to the notes page
 
-THEN my default email program opens and populates the TO field of the email with the address
+THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
 
-WHEN I click on the GitHub username
+WHEN I enter a new note title and the note’s text
 
-THEN that GitHub profile opens in a new tab
+THEN a Save icon appears in the navigation at the top of the page
 
-WHEN I start the application
+WHEN I click on the Save icon
 
-THEN I am prompted to enter the team manager’s name, employee ID, email address, and office number
+THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
 
-WHEN I enter the team manager’s name, employee ID, email address, and office number
+WHEN I click on an existing note in the list in the left-hand column
 
-THEN I am presented with a menu with the option to add an engineer or an intern or to finish building my team
+THEN that note appears in the right-hand column
 
-WHEN I select the engineer option
+WHEN I click on the Write icon in the navigation at the top of the page
 
-THEN I am prompted to enter the engineer’s name, ID, email, and GitHub username, and I am taken back to the menu
-
-WHEN I select the intern option
-
-THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
-
-WHEN I decide to finish building my team
-
-THEN I exit the application, and the HTML is generated
+THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
 ```
 
