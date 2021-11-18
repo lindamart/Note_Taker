@@ -1,34 +1,18 @@
 # Note Taker
-# Team Profile Generator delete after this
 
 ## Description
 
-This is a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Additionally there is a unit test for the code.
-
-## Table of Contents 
-
-* [Links](#links)
-
-* [Installation](#installation)
-
-* [Use](#use)
-
-* [Criteria](#criteria) 
-
-* [Questions](#questions)
-
-* [License](#license)
-
+This code has been modified to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.  The application will be deployed to Heroku. 
 
 ## Links
 GitHub Repository
 
-https://github.com/lindamart/team_profile_generator
+https://github.com/lindamart/Note_Taker
 
 
-Walkthrough Video Presentation
+Heroku Link
 
-https://youtu.be/OIO06u6Re2E
+https://stormy-bayou-93300.herokuapp.com/notes
 
 ## Installation
 
